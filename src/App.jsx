@@ -9,6 +9,7 @@ import SearchResult from "./pages/searchResult/SearchResult";
 import Explore from "./pages/explore/Explore";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import Error from "./pages/404/Error";
 
 function App() {
   const dispatch = useDispatch();

@@ -1,10 +1,16 @@
 import React from "react";
+
 import "./error.scss";
+
+import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 
 const Error = () => {
   return (
-    <div>
-      <h1>Error Component</h1>
+    <div className="pageNotFound">
+      <ContentWrapper>
+        <span className="bigText">404</span>
+        <span className="smallText">Page not found!</span>
+      </ContentWrapper>
     </div>
   );
 };
